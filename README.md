@@ -58,7 +58,9 @@ src
 Cucumber HTML report: target/cucumber-report.html
 JUnit test report: build/reports/tests/test/index.html
 
-🔗 Dependencies Used
+---
+
+## 🔗 Dependencies Used
 Here are the main libraries defined in build.gradle:
 
 // Cucumber
@@ -78,14 +80,20 @@ implementation 'net.serenity-bdd:serenity-cucumber:4.2.30'
 // Spring Framework
 implementation 'org.springframework:spring-context:5.3.31'
 
-🌐 Test URL
+---
+
+## 🌐 Test URL
 The test cases are executed against the following public test site:
 🔗 https://the-internet.herokuapp.com/login
 
-📌 Notes
+---
+
+## 📌 Notes
 - This is a sample test framework and can be easily extended.
 - Includes sample step definitions and POM implementation for login.
 - Follows best practices with clear project separation and reusability.
+  
+---
 
 📎 License
 This project is open-source and licensed under the MIT License.
