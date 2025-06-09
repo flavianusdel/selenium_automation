@@ -16,18 +16,27 @@ It demonstrates the use of Page Object Model (POM) and includes positive, negati
 ---
 
 ## 📂 Project Structure
-src
-├── main
-│ ├── java
-│ │ └── pages/ → Page Object classes
-│ └── resources/
-│
-├── test
-│ ├── java
-│ │ ├── stepdefinitions/ → Step definitions for Cucumber
-│ │ └── runners/ → Cucumber test runner
-│ └── resources
-│ ├── features/ → Gherkin feature files (.feature)
+```
+ui-test-framework/
+├── build.gradle
+├── settings.gradle
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── pages/
+│   │   │       └── LoginPage.java
+│   │   └── resources/
+│   └── test/
+│       ├── java/
+│       │   ├── runners/
+│       │   │   └── TestRunner.java
+│       │   └── stepdefinitions/
+│       │       └── LoginSteps.java
+│       └── resources/
+│           └── features/
+│               └── login.feature
+└── README.md
+```
 
 ---
 
@@ -63,6 +72,7 @@ JUnit test report: build/reports/tests/test/index.html
 ## 🔗 Dependencies Used
 Here are the main libraries defined in build.gradle:
 
+```
 // Cucumber
 testImplementation 'io.cucumber:cucumber-java:7.15.0'
 testImplementation 'io.cucumber:cucumber-junit:7.15.0'
@@ -79,6 +89,7 @@ implementation 'net.serenity-bdd:serenity-cucumber:4.2.30'
 
 // Spring Framework
 implementation 'org.springframework:spring-context:5.3.31'
+```
 
 ---
 
