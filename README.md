@@ -1,7 +1,7 @@
 # selenium_automation
 UI Test Automation Framework using Java, Gradle, Cucumber, Selenium, and Serenity BDD. Includes Page Object Model and test scenarios for login functionality on HerokuApp.
-# UI Test Framework with Cucumber, Java, Selenium, and Serenity
 
+# UI Test Framework with Cucumber, Java, Selenium, and Serenity
 This project is a sample **UI test automation framework** built using:
 
 - Java 11
@@ -106,5 +106,5 @@ The test cases are executed against the following public test site:
   
 ---
 
-📎 License
+## 📎 License
 This project is open-source and licensed under the MIT License.
